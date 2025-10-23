@@ -1,7 +1,7 @@
 import Script from 'next/script'
 import { Metadata, Viewport } from 'next'
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter'
-import getInitColorSchemeScript from "@mui/system/cssVars/getInitColorSchemeScript";
+import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import { Experimental_CssVarsProvider } from "@mui/material";
 
 import './globals.css'
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
       <body>
         <AppRouterCacheProvider>
           <Experimental_CssVarsProvider defaultMode="system">
-            {getInitColorSchemeScript({
+            {InitColorSchemeScript({
               attribute: "data-mui-color-scheme",
               modeStorageKey: "mui-mode",
               colorSchemeStorageKey: "mui-color-scheme",
