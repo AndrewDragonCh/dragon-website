@@ -10,25 +10,25 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/cache": "^11.11.0",
+    "@emotion/cache": "11.14.0",
     "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/material": "^5.15.20",
-    "@mui/material-nextjs": "^5.15.11",
-    "@mui/system": "^5.15.20",
-    "animate.css": "^4.1.1",
-    "next": "14.2.4",
-    "next-plausible": "^3.12.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "sharp": "^0.33.4"
+    "@emotion/styled": "11.14.1",
+    "@mui/material": "5.18.0",
+    "@mui/material-nextjs": "5.18.0",
+    "@mui/system": "5.18.0",
+    "animate.css": "4.1.1",
+    "next": "14.2.33",
+    "next-plausible": "3.12.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sharp": "0.34.4"
   },
   "devDependencies": {
-    "@types/node": "20.9.0",
-    "@types/react": "18.2.37",
-    "@types/react-dom": "^18.3.0",
+    "@types/node": "24.9.1",
+    "@types/react": "18.3.26",
+    "@types/react-dom": "18.3.7",
     "eslint": "^8.57.0",
-    "eslint-config-next": "^14.2.4",
-    "typescript": "^5.5.2"
+    "eslint-config-next": "14.2.33",
+    "typescript": "5.9.3"
   }
 }
