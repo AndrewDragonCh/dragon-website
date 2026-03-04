@@ -6,7 +6,6 @@ import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import './globals.css'
 
 import Theme from "../providers/ColorMode";
-import PlausibleProvider from 'next-plausible';
 
 
 export const metadata: Metadata = {
@@ -69,16 +68,12 @@ export const viewport:Viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <PlausibleProvider domain='andrewdragon.dev' trackOutboundLinks={true} taggedEvents={true} selfHosted={true} customDomain='https://plausible.andrewstill.moe' />
-      </head>
       <body>
         <AppRouterCacheProvider>
           <Theme>
             {children}
           </Theme>
         </AppRouterCacheProvider>
-        <Script id='service-worker' src='/service-worker.js' />
       </body>
     </html>
   )

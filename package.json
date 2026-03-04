@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint .",
-    "turbo": "next dev --turbo",
     "start": "next start"
   },
   "dependencies": {

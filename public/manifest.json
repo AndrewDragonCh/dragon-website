@@ -6,9 +6,6 @@
     "start_url": "/",
     "name": "AndrewDragon",
     "short_name": "AndrewDragon",
-    "serviceworker": {
-        "src": "/service-worker.js"
-    },
     "description": "AndrewDragon - YouTube Streamer and Content Creator",
     "id": "dev.andrewdragon",
     "orientation": "portrait",
