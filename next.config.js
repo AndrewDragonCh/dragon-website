@@ -10,8 +10,7 @@ const nextConfig = {
     ],
   },
   poweredByHeader: false,
-  reactStrictMode: true,
-  swcMinify: true,
+  reactStrictMode: true
 }
 
 module.exports = nextConfig;
