@@ -3,7 +3,8 @@
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 Dragonaere Enterprises</p>
+      <p>© 2026 Dragonaere Enterprises</p>
     </footer>
   )
 }
+
