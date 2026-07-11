@@ -13,11 +13,11 @@ export default function Home() {
           <h1 className='title animate__animated animate__backInDown'>
             Andrew
           </h1>
-          <h1 className='title orange animate__animated animate__delay-1s animate__fadeInRight'>
+          <h1 className='title orange animate__animated animate__fadeInRight animate__delay-1s'>
             Dragon
           </h1>
         </Box>
-        <Box className='mainbody animate__animated animate__delay-2s animate__fadeInUp'>
+        <Box className='mainbody animate__animated animate__fadeInUp'>
           <h2 className='subtitle animate__animated animate__fadeInUp animate__delay-2s'>
             YouTube Streamer and Content Creator
           </h2>

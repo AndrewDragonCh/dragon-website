@@ -18,6 +18,8 @@ a {
 
 * {
   box-sizing: border-box;
+  --animate-duration: 0.8s;
+  --animate-delay: 0.5s;
 }
 
 .main {
@@ -120,6 +122,9 @@ a {
   height: 32px;
   width: 100%;
   font-size: 1rem;
+}
+
+.half-delay {
 }
 
 @media (max-width: 600px) {

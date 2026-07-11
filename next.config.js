@@ -9,6 +9,7 @@ const nextConfig = {
       },
     ],
   },
+  allowedDevOrigins: ['10.0.0.10'],
   poweredByHeader: false,
   reactStrictMode: true
 }
