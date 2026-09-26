@@ -68,6 +68,9 @@ export const viewport:Viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script defer src="/u/script.js" data-website-id="fc4c45df-debc-4d11-9468-796d9980ab71" data-host-url="/u"></script>
+      </head>
       <body>
         <AppRouterCacheProvider>
           <Theme>
