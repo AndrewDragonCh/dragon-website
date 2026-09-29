@@ -13,7 +13,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   async rewrites() {
     return [
-      // Serve the tracker script from your own domain
       {
         source: '/u/script.js',
         destination: 'https://analytics.andrewstill.cloud/script.js',
