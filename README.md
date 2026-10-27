@@ -1,5 +1,6 @@
-# AndrewDragon Website
+# Migrated to Forgejo
 
-[![Dependency Review](https://github.com/Dragonaere/website/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Dragonaere/website/actions/workflows/dependency-review.yml)
+This repo has been moved to [my self-hosted Forgejo instance](https://git.andrewstill.cloud/AndrewDragon/Website).\
+Development will continue there.
 
-
+Thanks!
